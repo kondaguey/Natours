@@ -48,7 +48,7 @@
     url(../img/nat-10.jpg);
   background-size: cover;
   border-radius: .5rem;
-  box-shadow: 0 2rem 4rem rgba($color-black, .5) ;
+  @include boxShadow;
 
   height: 51rem;
   
