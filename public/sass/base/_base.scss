@@ -1,0 +1,19 @@
+/* Resets default browser html settings which contain some margin and padding built in. This universal selector will apply to each and every browser across the board. */
+
+*,
+*::after,
+*::before { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: inherit; 
+}
+/*Make the default font that will be inherited by everything else*/
+
+html{
+  //This defines what 1rem is
+  font-size: 62.5%;
+}
+
+body{
+  box-sizing: border-box; 
+}
