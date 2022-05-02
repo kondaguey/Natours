@@ -341,6 +341,10 @@ body {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
     transform: rotateY(0deg); }
+  .card:active .card__side--front {
+    transform: rotateY(-180deg); }
+  .card:active .card__side--back {
+    transform: rotateY(0deg); }
   .card__picture {
     background-size: cover;
     height: 23rem;

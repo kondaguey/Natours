@@ -48,6 +48,13 @@
   &:hover &__side--back {
     transform: rotateY(0deg);
     }
+  &:active &__side--front {
+    transform: rotateY(-180deg);
+    }
+  &:active &__side--back {
+    transform: rotateY(0deg);
+    }
+
   
   //FRONT SIDE STYLING
   &__picture {
