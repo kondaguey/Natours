@@ -303,9 +303,9 @@ body {
     .card__picture--2 {
       background-image: url(../img/nat-6.jpg), linear-gradient(to right bottom, #7ed56f, #28b485); }
     .card__picture--3 {
-      background-image: url(../../img/nat-7.jpg), linear-gradient(to right bottom, #2998ff, #5643fa); }
+      background-image: url(../img/nat-7.jpg), linear-gradient(to right bottom, #2998ff, #5643fa); }
     .card__picture--4 {
-      background-image: url(../../img/nat-buenos.jpg), linear-gradient(to right bottom, #D49D6A, #552900); }
+      background-image: url(../img/nat-buenos.jpg), linear-gradient(to right bottom, #D49D6A, #552900); }
   .card__pill {
     text-transform: uppercase;
     text-decoration: none;
