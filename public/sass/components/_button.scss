@@ -3,7 +3,7 @@
 /* Because the :visited psuedo will override the browser default of hilighting a link already clicked on blue, we change it to include the same default style as what we set for our :hover psuedo */
 
 .btn {
-
+  &,
   &:link,
   &:visited {
     text-transform: uppercase;
@@ -13,6 +13,9 @@
     border-radius: 10rem;
     transition: all .2s;
     position: relative;
+
+    border: none;
+    cursor: pointer;
     
   }
 
@@ -28,7 +31,9 @@
 
   }
 
-  &:active {
+  &:active,
+  &:focus{
+    outline: none;
     transform: translateY(-.2rem);
   }
 
