@@ -24,7 +24,6 @@ html{
   @include respond(big-desktop) { 
     font-size: 75%; //1rem = 12, 12/16 = %70
   }
-
 }
 
 body{
@@ -35,5 +34,8 @@ body{
 
     padding: 0;
   }
+}
 
+main {
+  background-color: $color-grey-light-1;
 }

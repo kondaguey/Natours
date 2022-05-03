@@ -11,9 +11,9 @@
     transition: all .3s;
 
     &__content {
-        @include absCenter;
+        @include centering;
 
-        width: 75%;
+        width: 74%;
         background-color: $color-white;
         box-shadow: 0 2rem 4rem rgba($color-black, .2);
         border-radius: 3px;
